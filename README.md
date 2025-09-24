@@ -34,7 +34,7 @@ cd custom_node_n8n
 docker-compose up -d
 ```
 
-3. Acesse o n8n em `http://localhost:5678`.
+3. Acesse o n8n em `http://localhost:5678/setup`.
 
 4. Instalar e compilar o Custom Node
 
