@@ -1,0 +1,20 @@
+{
+  "name": "random-node",
+  "version": "1.0.0",
+  "description": "Custom Random Number Generator Node for n8n",
+  "author": "Seu Nome",
+  "license": "MIT",
+  "main": "dist/Random.node.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "n8n-core": "^1.112.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "typescript": "^5.5.4"
+  }
+}
